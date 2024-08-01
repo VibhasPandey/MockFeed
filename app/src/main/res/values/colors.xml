@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#F5F5F5</color>
+
+    <!-- App's primary colors -->
+    <color name="primary_light">#04588a</color>
+    <color name="primary">#033f63</color>
+    <color name="primary_dark">#023859</color>
+
+    <!-- Colors for the navigation drawer -->
+    <color name="nav_bg">#EEEEEE</color>
+    <color name="nav_header_bg">#6aa7c1</color>
+</resources>

@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">MockFeed</string>
+
+    <!-- Default texts for all fields to be used in the item_card.xml and activity_post.xml-->
+
+    <!-- Default text for user name -->
+    <string name="user_name_def">John Doe</string>
+
+    <!-- Default text for user info -->
+    <string name="user_info_def">Android Developer</string>
+
+    <!-- Default text for post title  -->
+    <string name="post_title_def">Post Title</string>
+
+    <!-- Default text for a post's small info -->
+    <string name="post_small_info_def">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus tempor lacus, sed ullamcorper quam ullamcorper in. Quisque hendrerit felis velit.</string>
+
+    <!-- Default text for a post's full description in post activity -->
+    <string name="post_description_def">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus tempor lacus, sed ullamcorper quam ullamcorper in. Quisque hendrerit felis velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus tempor lacus, sed ullamcorper quam ullamcorper in. Quisque hendrerit felis velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus tempor lacus, sed ullamcorper quam ullamcorper in. Quisque hendrerit felis velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus tempor lacus, sed ullamcorper quam ullamcorper in. Quisque hendrerit felis velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus tempor lacus, sed ullamcorper quam ullamcorper in. Quisque hendrerit felis velit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus tempor lacus, sed ullamcorper quam ullamcorper in. Quisque hendrerit felis velit.</string>
+
+    <!-- ImageView content descriptions -->
+    <string name="profile_pic_desc">Profile Pic</string>
+    <string name="post_pic_desc">Post Pic</string>
+
+    <!-- Navigation Drawer menu items -->
+    <string name="menu_option_1">Profile</string>
+    <string name="menu_option_2">Saved</string>
+    <string name="menu_option_3">Chat</string>
+    <string name="menu_option_4">Settings</string>
+    <string name="menu_option_5">Info</string>
+    <string name="menu_option_6">Logout</string>
+
+    <string name="nav_start">Open</string>
+    <string name="nav_stop">Close</string>
+
+    <string name="nav_header_pic">Navigation Drawer Header Picture</string>
+    <string name="curr_user_name">Prasoon Pandey</string>
+    <string name="curr_user_id">\@prasoon06</string>
+
+    <string name="postContdIndicator">…</string>
+
+    <!-- Login Page Strings -->
+    <string name="sign_in_header">Sign In</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="log_in_btn">Log In</string>
+    <string name="sign_up_prompt">Don\'t have an account?</string>
+
+    <!-- Signup Page Strings -->
+    <string name="sign_up_header">Sign Up</string>
+    <string name="re_type_hint">Re-type Password</string>
+    <string name="sign_up_btn">Create Account</string>
+    <string name="login_prompt">Already Have An Account?</string>
+
+    <!-- String arrays to hold all the data -->
+    <string-array name="profile_pics">
+        <item>@drawable/profile_pic_1</item>
+        <item>@drawable/profile_pic_2</item>
+        <item>@drawable/profile_pic_3</item>
+        <item>@drawable/profile_pic_4</item>
+        <item>@drawable/profile_pic_5</item>
+        <item>@drawable/profile_pic_6</item>
+        <item>@drawable/profile_pic_7</item>
+        <item>@drawable/profile_pic_8</item>
+        <item>@drawable/profile_pic_9</item>
+        <item>@drawable/profile_pic_10</item>
+    </string-array>
+
+    <string-array name="user_names">
+        <item>Sanjay</item>
+        <item>Abhit</item>
+        <item>Ankit</item>
+        <item>Adarsh</item>
+        <item>Venika</item>
+        <item>Ayushi</item>
+        <item>Nishant</item>
+        <item>Mentric T&amp;C</item>
+        <item>Ananta Shesha Das</item>
+        <item>Divya</item>
+    </string-array>
+
+    <string-array name="user_infos">
+        <item>Assistant Manager</item>
+        <item>Research Intern</item>
+        <item>Operations Manager Intern at Uravu Labs</item>
+        <item>CSE Student</item>
+        <item>MS Business Analyst</item>
+        <item>SDE at Walmart</item>
+        <item>Grocers son revolutionizing kiranas</item>
+        <item>Competency Assessments</item>
+        <item>Monk</item>
+        <item>Founder at N Space Tech</item>
+    </string-array>
+
+    <string-array name="post_pics">
+        <item>@drawable/post_pic_1</item>
+        <item>@drawable/post_pic_2</item>
+        <item>@drawable/post_pic_3</item>
+        <item>@drawable/post_pic_4</item>
+        <item>@drawable/post_pic_5</item>
+        <item>@drawable/post_pic_6</item>
+        <item>@drawable/post_pic_7</item>
+        <item>@drawable/post_pic_8</item>
+        <item>@drawable/post_pic_9</item>
+        <item>@drawable/post_pic_10</item>
+    </string-array>
+
+    <string-array name="post_titles">
+        <item>Vidyashankara Temple</item>
+        <item>We are the finalists!</item>
+        <item>Startups to watch for</item>
+        <item>Graduation</item>
+        <item>Adios, my alma mater</item>
+        <item>Learn SQL</item>
+        <item>Petrol Prices</item>
+        <item>Mentric Training</item>
+        <item>Karma</item>
+        <item>Felication</item>
+    </string-array>
+
+    <string-array name="post_small_infos">
+        <item>Whenever they say my ancestors did not build anything extraordinary, i ask them whether they have been anywhere outside Delhi or Agra. That white structure is a wonder because it was nominated by the government of India and has become a wonder on the basis of public voting and </item>
+
+        <item>Hey everyone!I am happy to share that we - Team 72 emerged as the 𝗧𝗼𝗽 𝟮 𝗙𝗶𝗻𝗮𝗹𝗶𝘀𝘁𝘀 for Code for Good 2022 Hackathon organized by JPMorgan Chase and Co.It was a great experience working with Abhishek Padhy, Akshat jain, Zaid Shaikh, Aditya Sharma, Samreen Sadiya and Khushi Suresh</item>
+
+        <item>#30StartupsToWatch | May 2022. Every month, the Inc42 team curates 30 sector-agnostic startups with a unique value proposition. The 28th edition of the 30 Startups To Watch series aims to put emphasis on companies creating value instead of chasing valuation.</item>
+
+        <item>Hello Everyone, Pleased to share that I have officially graduated from IIT ISM Dhanbad. IIT fills you up with humility. I know, the people i have shared this space with, will invent something new for the world or they will lead business economies to growth and wisdom. It is not merely about the best in class studies </item>
+
+        <item>I am incredibly humbled and elated to share that two weeks ago, I graduated from Columbia University in the City of New York with a Masters degree in Business Analytics. My journey at Columbia has truly been an amazing and wonderfully enriching experience</item>
+
+        <item>Today I am going to share one of the best and FREE resource to learn SQL. It is the SQL series by Sumit Mittal sir. He has covered all the concepts in depth and solved numerous Leetcode problems for interview preparation. Making it one of the best SQL courses on YouTube. 🙌🏻 Not only this, </item>
+
+        <item>Petrol is roughly ₹100/L. For the same distance CNG almost costs the half. If you have a CNG vehicle in Delhi, you are 8/10 times likely to find a long queue of vehicles. On the flip side, petrol queues have nearly disappeared. Even though petrol is an expensive fuel, at least we save valuable time.</item>
+
+        <item>Mentric started as an Industry oriented training Organization in 2017, focusing on the Building Management sector. We have trained and placed over 1000 students - Electrical &amp; Mechanical Engineers in Technical areas and other graduates in non-technical areas - at leading Facility Management organizations.</item>
+
+        <item>In this picture, elephant represents past karma. Snakes in the pond represents future karma. Branch of the tree represents present life white and black rats are day and night which eats the presents life. Honey comb in the tree is Maya, Illusion, sense gratification</item>
+
+        <item>I am extremely grateful for this. A few days back I was invited to KL University for the felicitation on the occasion of the successful stratospheric balloon flight of my payload LakshyaSAT. It was quite a day. Felicitation by Honourable Vice-Chancellor of KL University Dr G.Pardha Saradhi Varma, followed by</item>
+    </string-array>
+
+
+    <string-array name="post_descriptions">
+        <item>Whenever they say my ancestors did not build anything extraordinary, i ask them whether they have been anywhere outside Delhi or Agra. That white structure is a wonder because it was nominated by the government of India and has become a wonder on the basis of public voting and has been a wonder since then. Let me show you what real wonder is.\n\nVidyashankara Temple,Sringeri\n\nThe temple has 12 pillars around Mandapa with 12 solar signs. Every morning when sun rays enter, they hit specific pillars indicating chronological order of the months of Hindu Calendar. The temple was built nearly 1000 years ago. That is called a wonder.\n Astronomy, Physics, Mathematics, surgery and what not. My ancestors were geniuses who built 1000s of wonders and 1000s of years ago. Time to revive history!!</item>
+
+        <item>Hey everyone!\n
+I am happy to share that we - Team 72 emerged as the 𝗧𝗼𝗽 𝟮 𝗙𝗶𝗻𝗮𝗹𝗶𝘀𝘁𝘀 for Code for Good 2022 Hackathon organized by JPMorgan Chase and Co.
+\n\n
+It was a great experience working with Abhishek Padhy, Akshat jain, Zaid Shaikh, Aditya Sharma, Samreen Sadiya and Khushi Suresh, I could not have asked for a better team 🙌🏻.
+\n\n
+It was such a wonderful experience to work for a full stretch of 24 hours and build a working prototype for the problem statement given by Jhatkaa.org NGO.
+\n\n
+Special thanks to our mentors Manjunath Reddy and Deepak Sanadi for guiding us and keeping our spirits high and motivated throughout the Hackathon.
+\n\n
+Thank you JPMorgan Chase and Co. for organizing the event and providing us with the opportunity. A huge shout-out to Mridula Nair (she/her) and Anshuman Magal for being such amazing hosts and to all the #SMEs for helping us whenever we got stuck!
+\n\n
+#jpmorganchase #cfg #finalists #codeforgood</item>
+
+        <item>#30StartupsToWatch | May 2022\n
+\n\n
+Every month, the Inc42 team curates 30 sector-agnostic startups with a unique value proposition
+\n\n
+The 28th edition of the 30 Startups To Watch series aims to put emphasis on companies creating value instead of chasing valuation
+\n\n
+Here is the May 2022 list of 30 #startups that are set to send ripples through their respective sectors.
+\n\n
+Congratulations-
+\n\n
+Abyom SpaceTech and Defence Pvt. Ltd., Airavana, Inc., akudo, Assurekit Technologies, Boltzmann , Buyofuel, Cubyts, DYBO, Edubuk, eFeed, EV Plugs, Fello (YC-W22), Foxtale, FunctionUp, Generic Aadhaar, Hatica, Haus and Kinder, Indika AI, jumpingMinds, Koshex (YC-S21), Pillow - DeFi For Everyone, POSHN, QPe, Secure Blink, shopflo, Traya Health, Uravu Labs, Vieroots, Zymrat, DISPATCH
+\n\n
+Learn more about the startups via the link in comments.</item>
+
+        <item>Hello Everyone,
+Pleased to share that I have officially graduated from IIT ISM Dhanbad.
+\n\n
+IIT fills you up with humility.\n
+I know, the people i have shared this space with, will invent something new for the world or they will lead business economies to growth and wisdom.
+\n\n
+It is not merely about the best in class studies, campus life or fancy placements, but things more important than this, things that are not tangible.
+\n\n
+And on the last day, when you get out of here, it strikes you hard that going there was one of the most cherishable decisions of your life, and I mean it💯.
+\n\n
+Next, I am looking forward to join, learn to grow and contribute to the industry as a Software Engineer at Amazon.
+\n\n
+At Last, Congratulations to all my fellow mates of IIT ISM.
+We made it❤️.
+\n\n
+#gratitude
+#graduated
+#iitism
+#softwareengineer
+#amazon </item>
+
+        <item>I am incredibly humbled and elated to share that two weeks ago, I graduated from Columbia University in the City of New York with a Masters degree in Business Analytics.
+\n\n
+My journey at Columbia has truly been an amazing and wonderfully enriching experience, and it has contributed immensely to my personal and professional growth.
+\n\n
+I experienced a lot of emotions when I left India last year and flew to the United States to pursue my degree as an international student. Each stage of this path had its own share of ups and downs. Being far away from home made me learn how to balance the strenuous academic coursework with the challenges of living independently with diverse individuals.
+\n\n
+I remember walking into the hallowed campus of Columbia University for the first time, like it was just yesterday. It was my and also my parents dream, to see me graduate from an Ivy league. On the day of my graduation, I could see the joy on my Dads face as I walked down the stage, and it was certainly the feeling of a lifetime.
+\n\n
+The time I spent at Columbia was surely challenging, but I learnt how to face all hurdles head-on with courage and conviction. I had to push myself to the edge in order to become the better version of myself.
+\n\n
+I would like to express my gratitude to my family, friends, mentors, Columbia Engineering and Columbia Business School professors, classmates, and the university staff for their unwavering support and encouragement throughout this journey; without them, it would not have been possible.
+\n\n
+Columbia has instilled in me a strong sense of self-belief and made me realize that I can achieve anything I set my mind to. It has given me lifelong memories to cherish and inculcated in me the drive to constantly strive for the pursuit of excellence.
+\n\n
+Roar, Lion, Roar! 🦁🔵
+\n\n
+Excited for the next chapter of life!
+\n\n
+#columbiauniversity #graduation2022 #columbiabusinessschool #columbiaengineering #roarlions2022</item>
+
+        <item>
+Today I am going to share one of the best and FREE resource to learn SQL:
+\n\n
+It is the SQL series by Sumit Mittal sir.
+\n\n
+He has covered all the concepts in depth and solved numerous Leetcode problems for interview preparation. Making it one of the best SQL courses on YouTube. 🙌🏻
+\n\n
+Not only this, Sumit Mittal sir is a popular Big data trainer and thousands of students have completed their big data training from TrendyTech and went on to lead Big Data teams at Walmart &amp; JPMC, and land dream offers and amazing hikes.
+\n\n
+Moreover, his student comes from 18+ countries and the average package is above 15 lacs.🔥
+\n\n
+If you want to learn SQL for free or get your big data concepts straight or land your dream job, I have shared both of the links in the comment section ⬇️
+\n\n
+#interview #students #job #bigdata #sql #training #trendytech
+</item>
+
+        <item>
+Petrol is roughly ₹100/L. For the same distance CNG almost costs the half.
+\n\n
+If you have a CNG vehicle in Delhi, you are 8/10 times likely to find a long queue of vehicles. On the flip side, petrol queues have nearly disappeared. Even though petrol is an expensive fuel, at least we save valuable time.
+\n\n
+My inference: Premium things inherently make you stand out. People buy expensive iPhones, premium bank accounts, golf course memberships and make themselves stand out. We often pay more to avoid queues. There are startups such as DroptheQ, doing it for us.
+\n\n
+Additionally buying premium products and services filters like minded people for us almost everywhere. To say the least, they save our time.
+</item>
+
+        <item>Mentric started as an Industry oriented training Organization in 2017, focusing on the Building Management sector. We have trained and placed over 1000 students - Electrical &amp; Mechanical Engineers in Technical areas and other graduates in non-technical areas - at leading Facility Management organizations. We also conduct regular training programs to the technical manpower in the Facility industry in Operation &amp; Maintenance, Quality, Health, Safety and Sustainability related topics. Our student trainings were thus derived out of the exact needs of the jobs which reinforced relevant contents to our courses.
+\n\n
+To give experiential learning to our students, we initiated discussions with M/s Schneider Electric, the French major providing energy and automation digital solutions for efficiency and sustainability for homes, buildings, data centers, infrastructure and industries, by combining energy technologies, real-time automation, software and services. Schneider evaluated Mentric’s course contents, training delivery, placement capabilities and signed up Mentric as a National Training Partner in November 2019.
+\n\n
+Mentric Training and Consulting , as a training partner of Schneider is training fresh engineers on courses related to Building &amp; Industrial Automation, enabling them to start attractive careers with leading organizations. The courses are being offered at the state-of-the-art Centre of excellence labs at Ramaiah Institute Of Technology, Bangalore &amp; SKILL DEVELOPMENT INSTITUTE (SDI), BHUBANESWAR.
+\n\n
+#electricalengineers #mechanicalengineers #electrical #mechanical #diploma #training #buildingautomation #centreofexcellence #schneiderelectric #sdi #mentrictraining #maintenance #technology #industrialautomation #facilitymanagement #industrytraining #learning #automation #buildingmanagement</item>
+
+        <item>In this picture, elephant represents past karma
+\n\n
+snakes in the pond represents future karma
+\n\n
+branch of the tree represents present life
+\n\n
+white and black rats are day\n
+and night which eats the presents life\n
+\n\n
+honey comb in the tree is Maya, Illusion, sense gratification\n
+\n\n
+Krishna extends His\n
+hand to release him from the circle\n
+\n\n
+But the human is so engrossed in drinking the nectar dripping from the honey comb that he fails to see Krishna 🥺\n
+\n\n
+always remember Krsna!\n
+Chant\n
+Hare Krishna\n
+and be happy !</item>
+
+        <item> I am extremely grateful for this. A few days back I was invited to KL University for the felicitation on the occasion of the successful stratospheric balloon flight of my payload LakshyaSAT.
+\n\n
+It was quite a day. Felicitation by Honourable Vice-Chancellor of KL University Dr G.Pardha Saradhi Varma, followed by an interactive session with Honourable Pro-Chancellor of K L University Dr K.S.Jagannatha Rao, and then interaction with students.
+\n\n
+I was surprised and thrilled by knowing how humble and grounded the Honourable Pro-Chancellor of Dr K.S.Jagannatha Rao was. As I was in my 8th month of pregnancy, he travelled from his cabin to the lab where I was present and had a discussion with me for around an hour on what changes can be made in the university so that more students can choose the path of entrepreneurship.
+\n\n
+My special thanks to Dr Chinnari SriKavya Korada madam for inviting me to the university for the felicitation and interaction.
+\n\n
+#entrepreneurship #university #cubesat #nspacetech #satellite </item>
+    </string-array>
+</resources>
