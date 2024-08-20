@@ -1,4 +1,4 @@
-package com.prasoon.mockfeed;
+package com.vibhas.mockfeed;
 
 import org.junit.Test;
 

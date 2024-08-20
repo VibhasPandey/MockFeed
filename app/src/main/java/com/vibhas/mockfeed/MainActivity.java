@@ -1,4 +1,4 @@
-package com.prasoon.mockfeed;
+package com.vibhas.mockfeed;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

@@ -1,4 +1,4 @@
-package com.prasoon.mockfeed;
+package com.vibhas.mockfeed;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.prasoon.mockfeed", appContext.getPackageName());
+        assertEquals("com.vibhas.mockfeed", appContext.getPackageName());
     }
 }

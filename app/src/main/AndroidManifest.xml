@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.prasoon.mockfeed">
+    package="com.vibhas.mockfeed">
 
     <application
         android:allowBackup="true"
@@ -10,20 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MockFeed">
         <activity
-            android:name=".LoginActivity"
+            android:name="com.vibhas.mockfeed.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SignupActivity"
+            android:name="com.vibhas.mockfeed.SignupActivity"
             android:exported="false"
-            android:parentActivityName=".LoginActivity" />
+            android:parentActivityName="com.vibhas.mockfeed.LoginActivity" />
         <activity
-            android:name=".PostActivity"
+            android:name="com.vibhas.mockfeed.PostActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.vibhas.mockfeed.MainActivity" />
 
         <!-- Main activity is the launcher. It decides to allow login or not -->
         <activity
-            android:name=".MainActivity"
+            android:name="com.vibhas.mockfeed.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.prasoon.mockfeed;
+package com.vibhas.mockfeed;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceManager;
